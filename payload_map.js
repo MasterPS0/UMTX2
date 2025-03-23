@@ -54,17 +54,6 @@ const payload_map = [
         toPort: 9021
     },
 	{
-        displayTitle: "etaHEN20b", 
-        description: "AIO HEN 5.10",
-        fileName: "etaHEN20b.bin",
-        author: "LightningMods",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "2.0b",
-		supportedFirmwares: ["5.10"],
-		toPort: 9021
-    },
-	{
         displayTitle: "etaHEN", 
         description: "AIO HEN",
         fileName: "etaHENByLM.bin",
