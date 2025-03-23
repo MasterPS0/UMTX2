@@ -11,7 +11,7 @@
     font-size: 17px;
 }
 
-body {
+body { 
     user-select: none;
     -webkit-user-select: none;
     background-color: var(--background-color-primary);
