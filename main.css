@@ -3,8 +3,8 @@
     --text-color-secondary: #005ed6;
     --text-color-tertiary: #999;
     --background-color-primary: #0c0c0f;
-    --surface-color-primary: #005ed6;
-    --surface-color-hover: #a2a2a6;
+    --surface-color-primary: rgba(0, 94, 214, 0.39);
+    --surface-color-hover: rgba(148, 144, 145, 0.29);
     --text-color-primary-hover: #202020;
     --text-color-secondary-hover: #444;
 
