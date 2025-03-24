@@ -11,7 +11,12 @@
     font-size: 17px;
 }
 
-body { 
+body {
+        flex-direction: column;
+    background: url(img/PS5EP.gif) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: sans-serif;
     user-select: none;
     -webkit-user-select: none;
     background-color: var(--background-color-primary);
