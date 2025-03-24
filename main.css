@@ -1,4 +1,4 @@
-﻿:root{
+:root{
     --text-color-primary: #fff;
     --text-color-secondary: #005ed6;
     --text-color-tertiary: #286ee8;
@@ -13,7 +13,7 @@
 
 body {
         flex-direction: column;
-    background: url(img/PS5EP.gif) no-repeat center center fixed;
+    background: url(img/xmb.png) no-repeat center center fixed;
     background-size: cover;
     color: #fff;
     font-family: sans-serif;
