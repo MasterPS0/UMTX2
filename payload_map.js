@@ -67,12 +67,11 @@ const payload_map = [
 	{
         displayTitle: "etaHEN20b", 
         description: "AIO HEN",
-        fileName: "etaHEN20b.bin",
+        fileName: "etaHEN.2.0b.prerelease.bin",
         author: "LightningMods",
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
         version: "2.0b",
-		supportedFirmwares: ["4.", "5."],
 		toPort: 9021
     },
     {
