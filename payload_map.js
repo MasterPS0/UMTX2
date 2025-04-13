@@ -26,53 +26,19 @@ const payload_map = [
     //     fileName: "elfldr.elf",
     //     author: "john-tornblom",
     //     projectSource: "https://github.com/ps5-payload-dev/elfldr",
-    //     binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-    //     version: "0.18.1",
+    //     binarySource: "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.19/Payload.zip",
+    //     version: "0.19",
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
-    // etaHEN is added twice so that on 1.xx-2.xx you can load it in webkit only mode too
-    // but on 3.xx-4.xx it only shows in kernel exploit mode since it needs the 9020 elf loader for kstuff
     {
         displayTitle: "etaHEN",
-        description: "AIO HEN",
-        fileName: "etaHEN.bin",
-        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "1.9b",
-        supportedFirmwares: ["3.", "4."]
-    },
-    {
-        displayTitle: "etaHEN",
-        description: "AIO HEN",
-        fileName: "etaHEN.bin",
-        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "1.9b",
-        supportedFirmwares: ["1.", "2."],
-        toPort: 9021
-    },
-	{
-        displayTitle: "New etaHEN", 
         description: "AIO HEN",
         fileName: "etaHEN-2.0b.bin",
-        author: "LightningMods",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
+        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
+        projectSource: "https://github.com/etaHEN/etaHEN",
+        binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
         version: "2.0b",
-		supportedFirmwares: ["5."],
-		toPort: 9021
-    },
-	{
-        displayTitle: "etaHEN20b", 
-        description: "AIO HEN",
-        fileName: "etaHEN.2.0b.prerelease.bin",
-        author: "LightningMods",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "2.0b",
-		toPort: 9021
+        toPort: 9021
     },
     {
         displayTitle: "ps5-kstuff",
@@ -80,8 +46,8 @@ const payload_map = [
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/kstuff",
-        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/5xx-support-v1/kstuff.elf",
-        version: "081f53b",
+        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
+        version: "1.3",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
@@ -91,8 +57,8 @@ const payload_map = [
         fileName: "byepervisor.elf",
         author: "SpecterDev, ChendoChap, flatz, fail0verflow, Znullptr, kiwidog, sleirsgoevy, EchoStretch, LightningMods, BestPig, zecoxao", 
         projectSource: "https://github.com/EchoStretch/Byepervisor",
-        binarySource: "https://github.com/EchoStretch/Byepervisor/actions/runs/12567456429",
-        version: "47a6ae7",
+        binarySource: "https://github.com/EchoStretch/Byepervisor/actions/runs/14004003762",
+        version: "84164bb",
         supportedFirmwares: ["1.00", "1.01", "1.02", "1.12", "1.14", "2.00", "2.20", "2.25", "2.26", "2.30", "2.50", "2.70"],
         toPort: 9021
     },
@@ -112,8 +78,8 @@ const payload_map = [
         fileName: "websrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/websrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.20",
+        binarySource: "https://github.com/ps5-payload-dev/websrv/actions/runs/14318408868",
+        version: "0.22",
         toPort: 9021
     },
     {
@@ -122,8 +88,8 @@ const payload_map = [
         fileName: "ftpsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.11.2",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
+        version: "0.11.3",
         toPort: 9021
     },
     {
@@ -132,8 +98,8 @@ const payload_map = [
         fileName: "klogsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/klogsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.5.2",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
+        version: "0.5.3",
         toPort: 9021
     },
     {
@@ -142,8 +108,8 @@ const payload_map = [
         fileName: "shsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/shsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
-        version: "0.13.1",
+        binarySource: "https://github.com/ps5-payload-dev/shsrv/releases/tag/v0.15",
+        version: "0.15",
         toPort: 9021
     },
     {
@@ -152,19 +118,19 @@ const payload_map = [
         fileName: "gdbsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/gdbsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/13686166926",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
         version: "0.5",
         toPort: 9021
     },
     {
         displayTitle: "ps5debug",
         description: "Debugger (Experimental beta)",
-        fileName: "ps5debug_v1.0b2.elf",
+        fileName: "ps5debug_v1.0b3.elf",
         author: "SiSTR0, ctn123",
         projectSource: "https://github.com/GoldHEN/ps5debug",
-        binarySource: "https://github.com/GoldHEN/ps5debug/releases/download/1.0b2/ps5debug_v1.0b2.elf",
-        version: "1.0b2",
-        supportedFirmwares: ["3.", "4."],
+        binarySource: "https://github.com/GoldHEN/ps5debug/releases/download/1.0b3/ps5debug_v1.0b3.elf",
+        version: "1.0b3",
+        supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
     {
