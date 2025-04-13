@@ -1,6 +1,6 @@
 # UMTX2
 
-web 
+Link: 
 https://masterps0.github.io/UMTX2/
 
 
