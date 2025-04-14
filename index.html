@@ -2,6 +2,7 @@
 <!-- <html manifest="cache.appcache"> -->
 
 <head>
+    <meta charset="UTF-8">
     <title> PS5 UMTX Jailbreak   </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
@@ -12,13 +13,13 @@
     <!-- Row 1 -->
     <div class="p-2">
         <h1 class="text-center">PS5 UMTX2 Jailbreak (1.xx-5.xx)</h1>
-        <p style="text-align: center"><img src="img/PS_Loaders.png" width="128" height="101" alt="">  </p>
-        <p class="text-center" id="top-bar-text">Current firmware: <span class="fw-bold" id="current-fw"></span></p>
-
+        <div id="status-container" style="text-align: center; margin-top: 10px;">
+        <p style="text-align: center"><img src="img/PS_Loaders.png" width="128" height="101" alt=""><img id="statusImage" src="offline.png" width="32" height="32" alt="Connection Status" /></p>
+        </div>
+        <p class="text-center" id="top-bar-text">Current firmware: <span class="fw-bold" id="current-fw"></span></p>		
         <!-- This is absolute positioned to the body-->
         <div id="toast-container"></div>
     </div>
-
     <!-- Row 2 -->
     <div id="main-content">
         <div id="pre-jb-view" class="d-flex align-items-center justify-content-center flex-direction-column selected">
@@ -63,7 +64,7 @@
             <span class="ml-2">Redirect</span>
         </div>
     </div>
-
+    
     <script src="int64.js"></script>
     <script src="rop.js"></script>
     <script src="main.js"></script>

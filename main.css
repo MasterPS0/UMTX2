@@ -81,7 +81,7 @@ a:focus {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 98%;
     height: 100%;
     opacity: 0;
     pointer-events: none;
@@ -222,7 +222,27 @@ a:focus {
     box-sizing: border-box;
     overflow-y: auto;
 }
+/* الحالة العامة */
+#console-view {
+  border: 2px solid gray;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
 
+/* متصل */
+#console-view.online {
+  border-color: lime;
+  box-shadow: 0 0 15px lime;
+}
+
+/* غير متصل */
+#console-view.offline {
+  border-color: red;
+  box-shadow: 0 0 15px red;
+}
 
 .LOG-DEBUG {
     color: #bbddbb;

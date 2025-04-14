@@ -199,17 +199,25 @@ function registerL2ButtonHandler() {
 const TOAST_SUCCESS_TIMEOUT = 2000;
 const TOAST_ERROR_TIMEOUT = 5000;
 
-function showToast(message, timeout = 2000) {
+function showToast(message, timeout = 2000, type = "") {
     const toastContainer = document.getElementById('toast-container');
     const toast = document.createElement('div');
     toast.className = 'toast';
-    toast.textContent = message;
 
+    // ألوان حسب النوع
+    if (type === "wifi") {
+        toast.style.backgroundColor = "#007aff"; // أزرق
+    } else if (type === "ethernet") {
+        toast.style.backgroundColor = "#28a745"; // أخضر
+    } else if (type === "offline") {
+        toast.style.backgroundColor = "#dc3545"; // أحمر
+    }
+
+    toast.textContent = message;
     toastContainer.appendChild(toast);
 
-    // Trigger reflow to enable animation
+    // Trigger reflow
     toast.offsetHeight;
-
     toast.classList.add('show');
 
     if (timeout > 0) {
@@ -220,6 +228,7 @@ function showToast(message, timeout = 2000) {
 
     return toast;
 }
+
 
 function updateToastMessage(toast, message) {
     if (!toast) {
