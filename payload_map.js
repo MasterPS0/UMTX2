@@ -41,6 +41,16 @@ const payload_map = [
         toPort: 9021
     },
     {
+        displayTitle: "etaHEN2.1",
+        description: "AIO HEN",
+        fileName: "etaHEN2.1.bin",
+        author: "LightningMods",
+        projectSource: "",
+        binarySource: "",
+        version: "2.1",
+        toPort: 9021
+    },
+    {
         displayTitle: "ps5-kstuff",
         description: "FPKG enabler",
         fileName: "kstuff.elf",
