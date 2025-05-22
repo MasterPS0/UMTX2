@@ -48,6 +48,17 @@ const payload_map = [
         projectSource: "",
         binarySource: "",
         version: "2.1",
+        toPort: 9021,
+		imageUrl: "img/etaHEN.png"
+    },
+	{
+        displayTitle: "App logo v1.1",
+        description: "App logo v1.1",
+        fileName: "App-logo2.elf",
+        author: "Masterps0",
+        projectSource: "https://github.com/MasterPS0/PS5App-logo/releases",
+        binarySource: "https://github.com/MasterPS0/PS5App-logo/releases/download/1.1/App-logo2.elf",
+        version: "1.1",
         toPort: 9021
     },
     {
