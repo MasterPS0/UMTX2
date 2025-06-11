@@ -40,6 +40,17 @@ const payload_map = [
         version: "2.0b",
         toPort: 9021
     },
+	{
+        displayTitle: "etaHEN-2.2B",
+        description: "AIO HEN",
+        fileName: "etaHEN-2.2B.bin",
+        author: "LightningMods",
+        projectSource: "",
+        binarySource: "",
+        version: "2.2",
+        toPort: 9021,
+		imageUrl: "img/etaHEN.png"
+    },
     {
         displayTitle: "etaHEN",
         description: "AIO HEN",
