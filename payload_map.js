@@ -157,6 +157,17 @@ const payload_map = [
     {
         displayTitle: "ps5debug",
         description: "Debugger (Experimental beta)",
+        fileName: "	ps5debug_v1.0b5.elf",
+        author: "SiSTR0, ctn123",
+        projectSource: "https://github.com/GoldHEN/ps5debug",
+        binarySource: "https://github.com/GoldHEN/ps5debug/releases/download/1.0b5/ps5debug_v1.0b5.elf",
+        version: "1.0b5",
+        supportedFirmwares: ["3.", "4.", "5.", "7."],
+        toPort: 9021
+    },
+    {
+        displayTitle: "ps5debug",
+        description: "Debugger (Experimental beta)",
         fileName: "ps5debug_v1.0b3.elf",
         author: "SiSTR0, ctn123",
         projectSource: "https://github.com/GoldHEN/ps5debug",
