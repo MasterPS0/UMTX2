@@ -41,6 +41,17 @@ const payload_map = [
         toPort: 9021
     },
 	{
+        displayTitle: "ps5-kstuff",
+        description: "FPKG enabler",
+        fileName: "kstuff.elf",
+        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, idlesauce, BestPig, LightningMods, zecoxao",
+        projectSource: "https://github.com/EchoStretch/ps4jb-payloads/",
+        binarySource: "https://github.com/EchoStretch/ps4jb-payloads/actions/runs/17254240982",
+        version: "1.5",
+        supportedFirmwares: ["3.", "4.", "5."],
+        toPort: 9021
+    },
+	{
         displayTitle: "etaHEN-2.2B",
         description: "AIO HEN",
         fileName: "etaHEN-2.2B.bin",
@@ -70,17 +81,6 @@ const payload_map = [
         projectSource: "https://github.com/MasterPS0/PS5App-logo/releases",
         binarySource: "https://github.com/MasterPS0/PS5App-logo/releases/download/1.1/App-logo2.elf",
         version: "1.1",
-        toPort: 9021
-    },
-    {
-        displayTitle: "ps5-kstuff",
-        description: "FPKG enabler",
-        fileName: "kstuff.elf",
-        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao",
-        projectSource: "https://github.com/EchoStretch/kstuff",
-        binarySource: "https://github.com/EchoStretch/kstuff/releases/download/v1.3/kstuff.elf",
-        version: "1.3",
-        supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
     {
