@@ -31,9 +31,9 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
-        displayTitle: "etaHEN",
+        displayTitle: "etaHEN-2.3B",
         description: "AIO HEN",
-        fileName: "etaHEN-2.0b.bin",
+        fileName: "etaHEN-2.3B.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
@@ -50,28 +50,6 @@ const payload_map = [
         version: "1.5",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
-    },
-	{
-        displayTitle: "etaHEN-2.2B",
-        description: "AIO HEN",
-        fileName: "etaHEN-2.2B.bin",
-        author: "LightningMods",
-        projectSource: "",
-        binarySource: "",
-        version: "2.2",
-        toPort: 9021,
-		imageUrl: "img/etaHEN.png"
-    },
-    {
-        displayTitle: "etaHEN",
-        description: "AIO HEN",
-        fileName: "etaHEN2.1.bin",
-        author: "LightningMods",
-        projectSource: "",
-        binarySource: "",
-        version: "2.1",
-        toPort: 9021,
-		imageUrl: "img/etaHEN.png"
     },
 	{
         displayTitle: "App logo v1.1",
