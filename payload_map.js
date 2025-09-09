@@ -47,7 +47,7 @@ const payload_map = [
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, idlesauce, BestPig, LightningMods, zecoxao",
         projectSource: "https://github.com/EchoStretch/ps4jb-payloads/",
         binarySource: "https://github.com/EchoStretch/ps4jb-payloads/actions/runs/17254240982",
-        version: "1.5",
+        version: "1.6",
         supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
