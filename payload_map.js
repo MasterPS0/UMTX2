@@ -31,13 +31,13 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
     {
-        displayTitle: "etaHEN-2.xB",
+        displayTitle: "etaHEN-2.4B",
         description: "Expires Nov 25th,Games moved or copied with the itemzflow below will now be set to 0777 perms, Added the option to change the overlay position on screen, Added PS5 IP to game overlay",
         fileName: "etaHEN.elf",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
-        version: "2.xB",
+        version: "2.4B",
         toPort: 9021
     },
     {
