@@ -32,8 +32,8 @@ const payload_map = [
     // },
     {
         displayTitle: "etaHEN-2.4B",
-        description: "Expires Nov 25th,Games moved or copied with the itemzflow below will now be set to 0777 perms, Added the option to change the overlay position on screen, Added PS5 IP to game overlay",
-        fileName: "etaHEN.elf",
+        description: "AIO HEN",
+        fileName: "etaHEN-2.4B.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
