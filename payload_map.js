@@ -30,14 +30,14 @@ const payload_map = [
     //     version: "0.19",
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
-	    {
-        displayTitle: "etaHEN-2.5B",
+    {
+        displayTitle: "etaHEN-2.6B",
         description: "AIO HEN",
-        fileName: "etaHEN-2.5B.bin",
+        fileName: "etaHEN-2.6B.elf",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
         binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
-        version: "2.5B",
+        version: "2.6B",
         toPort: 9021
     },
     {
@@ -50,14 +50,14 @@ const payload_map = [
         version: "2.4B",
         toPort: 9021
     },
-    {
-        displayTitle: "etaHEN-2.3B",
-        description: "AIO HEN",
-        fileName: "etaHEN-2.3B.bin",
-        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
-        projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
-        version: "2.3B",
+	{
+        displayTitle: "np-fake-signin-ps5",
+        description: "np-fake-signin-ps5",
+        fileName: "np-fake-signin-ps5.elf",
+        author: "earthonion",
+        projectSource: "https://github.com/earthonion/np-account-restore/releases",
+        binarySource: "https://github.com/earthonion/np-account-restore/releases",
+        version: "v0.1",
         toPort: 9021
     },
 	{
