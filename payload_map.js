@@ -30,6 +30,16 @@ const payload_map = [
     //     version: "0.19",
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
+	{
+        displayTitle: "ps5-hen",
+        description: "ps5-hen",
+        fileName: "ps5-hen.elf",
+        author: "Defeats the Hypervisor on firmware <= 4.51 and enables supports for homebrew and ps4 fpkg's.",
+        projectSource: "https://github.com/cragson/ps5-hen",
+        binarySource: "https://github.com/cragson/ps5-hen",
+        version: "1.0",
+        supportedFirmwares: ["1.", "2.", "3.", "4."]
+    },
     {
         displayTitle: "etaHEN-2.6B",
         description: "AIO HEN",
