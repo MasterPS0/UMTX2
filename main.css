@@ -1,4 +1,4 @@
-﻿:root{
+:root{
     --text-color-primary: #fff;
     --text-color-secondary: #303030;
     --text-color-tertiary: #252525;
@@ -96,7 +96,7 @@ a:focus {
     grid-auto-rows: auto;
     column-gap: 2.5rem;
     row-gap: 1rem;
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 10rem 1rem 0rem;
     overflow-y: scroll;
     overflow-x: hidden;
     box-sizing: border-box;
