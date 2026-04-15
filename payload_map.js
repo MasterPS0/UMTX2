@@ -113,6 +113,16 @@ const payload_map = [
         toPort: 9021
     },
     {
+        displayTitle: "App-logo2",
+        description: "App-logo2",
+        fileName: "App-logo2.elf",
+        author: "MasterPS0",
+        projectSource: "",
+        binarySource: "",
+        version: "0.2",
+        toPort: 9021
+    },
+    {
         displayTitle: "klogsrv",
         description: "Klog server. Runs on port 3232.",
         fileName: "klogsrv.elf",
