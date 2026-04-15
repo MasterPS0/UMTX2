@@ -31,7 +31,7 @@ const payload_map = [
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
 	{
-        displayTitle: "ps5-hen",
+        displayTitle: "ps5 HEN",
         description: "ps5-hen",
         fileName: "ps5-hen.elf",
         author: "Defeats the Hypervisor on firmware <= 4.51 and enables supports for homebrew and ps4 fpkg's.",
