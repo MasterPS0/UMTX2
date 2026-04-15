@@ -30,44 +30,46 @@ const payload_map = [
     //     version: "0.19",
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
-	{
-        displayTitle: "ps5 HEN",
-        description: "ps5-hen",
-        fileName: "ps5-hen.elf",
-        author: "Defeats the Hypervisor on firmware <= 4.51 and enables supports for homebrew and ps4 fpkg's.",
-        projectSource: "https://github.com/cragson/ps5-hen",
-        binarySource: "https://github.com/cragson/ps5-hen",
-        version: "1.0",
-        supportedFirmwares: ["1.", "2.", "3.", "4."]
-    },
     {
-        displayTitle: "etaHEN-2.6B",
+        displayTitle: "etaHEN 2.6B",
         description: "AIO HEN",
-        fileName: "etaHEN-2.6B.elf",
+        fileName: "etaHEN-2.6B.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
-        version: "2.6B",
+        binarySource: "https://github.com/etaHEN/etaHEN/releases/download/2.6B/etaHEN-2.6B.bin",
+        version: "2.6b",
         toPort: 9021
     },
     {
-        displayTitle: "etaHEN-2.5B",
+        displayTitle: "etaHEN 2.5B",
         description: "AIO HEN",
         fileName: "etaHEN-2.5B.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
-        version: "2.5B",
+        binarySource: "https://github.com/etaHEN/etaHEN/releases/download/2.6B/etaHEN-2.6B.bin",
+        version: "2.6b",
         toPort: 9021
     },
     {
-        displayTitle: "etaHEN-2.4B",
-        description: "AIO HEN",
-        fileName: "etaHEN-2.4B.bin",
-        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
-        projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/blob/360e7c0d2dddf4f4645599d51d652e707c0b717b/etaHEN-2.0b.bin",
-        version: "2.4B",
+        displayTitle: "PS5 HEN",
+        description: "HEN for 1.00 to 4.51 by Cragson",
+        fileName: "ps5-hen.elf",
+        author: "cragson, SpecterDev, fail0verflow, flatz, EchoStretch", 
+        projectSource: "https://github.com/cragson/ps5-hen",
+        binarySource: "https://github.com/cragson/ps5-hen/releases/download/dev-latest",
+        version: "1.0",
+        supportedFirmwares: ["1.","2.","3.","4."],
+        toPort: 9021
+    },
+    {
+        displayTitle: "ps5-kstuff-lite",
+        description: "FPKG enabler",
+        fileName: "kstuff.elf",
+        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao, idlesauce",
+        projectSource: "https://github.com/EchoStretch/kstuff-lite",
+        binarySource: "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.01/",
+        version: "1.03",
+        supportedFirmwares: ["3.","4.","5.","6.","7.","8.","9.","10."],
         toPort: 9021
     },
 	{
@@ -78,38 +80,6 @@ const payload_map = [
         projectSource: "https://github.com/earthonion/np-account-restore/releases",
         binarySource: "https://github.com/earthonion/np-account-restore/releases",
         version: "v0.1",
-        toPort: 9021
-    },
-	{
-        displayTitle: "ps5-kstuff",
-        description: "FPKG enabler",
-        fileName: "kstuff.elf",
-        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, idlesauce, BestPig, LightningMods, zecoxao",
-        projectSource: "https://github.com/EchoStretch/ps4jb-payloads/",
-        binarySource: "https://github.com/EchoStretch/ps4jb-payloads/actions/runs/17254240982",
-        version: "1.6.7",
-        supportedFirmwares: ["3.", "4.", "5."],
-        toPort: 9021
-    },
-	{
-        displayTitle: "App logo v1.1",
-        description: "App logo v1.1",
-        fileName: "App-logo2.elf",
-        author: "Masterps0",
-        projectSource: "https://github.com/MasterPS0/PS5App-logo/releases",
-        binarySource: "https://github.com/MasterPS0/PS5App-logo/releases/download/1.1/App-logo2.elf",
-        version: "1.1",
-        toPort: 9021
-    },
-    {
-        displayTitle: "Byepervisor HEN",
-        description: "FPKG enabler",
-        fileName: "byepervisor.elf",
-        author: "SpecterDev, ChendoChap, flatz, fail0verflow, Znullptr, kiwidog, sleirsgoevy, EchoStretch, LightningMods, BestPig, zecoxao", 
-        projectSource: "https://github.com/EchoStretch/Byepervisor",
-        binarySource: "https://github.com/EchoStretch/Byepervisor/actions/runs/14004003762",
-        version: "84164bb",
-        supportedFirmwares: ["1.00", "1.01", "1.02", "1.12", "1.14", "2.00", "2.20", "2.25", "2.26", "2.30", "2.50", "2.70"],
         toPort: 9021
     },
     {
@@ -132,14 +102,14 @@ const payload_map = [
         version: "0.22",
         toPort: 9021
     },
-	{
-        displayTitle: "ftpsrv v1.7",
+    {
+        displayTitle: "ftpsrv",
         description: "FTP server. Runs on port 2121.",
-        fileName: "ftpsrv-ps5-1.7.elf",
+        fileName: "ftpsrv.elf",
         author: "john-tornblom",
         projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
         binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
-        version: "0.15",
+        version: "0.12.8",
         toPort: 9021
     },
     {
@@ -153,34 +123,34 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "shsrv",
-        description: "Telnet shell server. Runs on port 2323.",
-        fileName: "shsrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/shsrv",
-        binarySource: "https://github.com/ps5-payload-dev/shsrv/releases/tag/v0.15",
-        version: "0.15",
+        displayTitle: "shadowmountplus",
+        description: "Mount games has never been easier with shadowmountplus",
+        fileName: "shadowmountplus.elf",
+        author: "drakmor",
+        projectSource: "https://github.com/drakmor/ShadowMountPlus/",
+        binarySource: "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.6beta5",
+        version: "1.6beta5",
         toPort: 9021
     },
     {
-        displayTitle: "gdbsrv",
-        description: "GDB server. Runs on port 2159.",
-        fileName: "gdbsrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/gdbsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
-        version: "0.5",
+        displayTitle: "voidshell",
+        description: "AIO tool by VoidWhisper",
+        fileName: "voidshell.elf",
+        author: "VoidWhisper",
+        projectSource: "https://ko-fi.com/s/d90b784d5d",
+        binarySource: "https://ko-fi.com/s/d90b784d5d",
+        version: "3.0B",
         toPort: 9021
     },
-    {
+	{
         displayTitle: "ps5debug",
         description: "Debugger (Experimental beta)",
-        fileName: "	ps5debug_v1.0b5.elf",
+        fileName: "ps5debug_v1.0b5.elf",
         author: "SiSTR0, ctn123",
         projectSource: "https://github.com/GoldHEN/ps5debug",
-        binarySource: "https://github.com/GoldHEN/ps5debug/releases/download/1.0b5/ps5debug_v1.0b5.elf",
+        binarySource: "https://github.com/GoldHEN/ps5debug/releases/download/1.0b3/ps5debug_v1.0b5.elf",
         version: "1.0b5",
-        supportedFirmwares: ["3.", "4.", "5.", "7."],
+        supportedFirmwares: ["3.", "4.", "5."],
         toPort: 9021
     },
     {
