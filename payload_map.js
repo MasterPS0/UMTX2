@@ -30,6 +30,16 @@ const payload_map = [
     //     version: "0.19",
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
+   {
+        displayTitle: "PS5 Linux-loader",
+        description: "PS5 Linux-loader",
+        fileName: "ps5-linux-loader.elf",
+        author: "TheOfficialFloW",
+        projectSource: "https://github.com/ps5-linux/ps5-linux-loader/releases",
+        binarySource: "https://github.com/ps5-linux/ps5-linux-loader/releases",
+        version: "01.00",
+        toPort: 9021
+    },
     {
         displayTitle: "etaHEN 2.6B",
         description: "AIO HEN",
