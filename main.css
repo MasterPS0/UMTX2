@@ -1,4 +1,4 @@
-:root{
+﻿:root{
     --text-color-primary: #fff;
     --text-color-secondary: #303030;
     --text-color-tertiary: #252525;
@@ -48,20 +48,20 @@ a:focus {
 
 
 .btn {
-    padding: 0rem 2rem;
+    padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 0.2rem;
     cursor: pointer;
-    line-height: 3.5rem;
+    line-height: 1.5rem;
     min-width: 5rem;
     border-radius: 1.25rem;
     width: 20%;
     background-color: var(--surface-color-primary);
     border: none;
     color: var(--text-color-primary);
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     transition: background-color 0.25s ease;
     box-sizing: border-box;
 }
@@ -92,11 +92,11 @@ a:focus {
 
 #payloads-view {
     display: grid !important;
-    grid-template-columns: repeat(3, minmax(0, 4fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     grid-auto-rows: auto;
     column-gap: 2.5rem;
     row-gap: 1rem;
-    padding: 0 15rem 0rem 2rem;
+    padding: 0 2rem 2rem 2rem;
     overflow-y: scroll;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -111,7 +111,7 @@ a:focus {
 }
 
 .payload-btn-title {
-    line-height: 1.5rem;
+    line-height: 2.5rem;
     font-weight: bolder;
     font-size: 1.3rem;
     padding: 0;
