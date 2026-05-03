@@ -78,7 +78,7 @@ const payload_map = [
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao, idlesauce",
         projectSource: "https://github.com/EchoStretch/kstuff-lite",
         binarySource: "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.01/",
-        version: "1.03",
+        version: "1.04",
         supportedFirmwares: ["3.","4.","5.","6.","7.","8.","9.","10."],
         toPort: 9021
     },

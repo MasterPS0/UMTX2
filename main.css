@@ -48,20 +48,20 @@ a:focus {
 
 
 .btn {
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     margin: 0.2rem;
     cursor: pointer;
-    line-height: 1.5rem;
+    line-height: 3.5rem;
     min-width: 5rem;
     border-radius: 1.25rem;
     width: 20%;
     background-color: var(--surface-color-primary);
     border: none;
     color: var(--text-color-primary);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     transition: background-color 0.25s ease;
     box-sizing: border-box;
 }
@@ -92,11 +92,11 @@ a:focus {
 
 #payloads-view {
     display: grid !important;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 4fr));
     grid-auto-rows: auto;
     column-gap: 2.5rem;
     row-gap: 1rem;
-    padding: 0 10rem 0rem 2rem;
+    padding: 0 15rem 0rem 2rem;
     overflow-y: scroll;
     overflow-x: hidden;
     box-sizing: border-box;
