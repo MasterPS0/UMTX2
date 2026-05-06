@@ -122,6 +122,16 @@ const payload_map = [
         version: "0.19",
         toPort: 9021
     },
+	{
+        displayTitle: "ftpsrv-ps5-1.7",
+        description: "FTP server. Runs on port 2121.",
+        fileName: "ftpsrv-ps5-1.7.elf",
+        author: "john-tornblom",
+        projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
+        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
+        version: "0.17",
+        toPort: 9021
+    },
     {
         displayTitle: "App-logo2",
         description: "App-logo2",
