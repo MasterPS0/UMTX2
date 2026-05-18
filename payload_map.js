@@ -32,7 +32,7 @@ const payload_map = [
     // },
    {
         displayTitle: "PS5 Linux-loader",
-        description: "Added 5.50, 6.00 and 6.02 support",
+        description: "Added 5.00, 5.02 and 5.10  5.50, 6.00 and 6.02 support",
         fileName: "ps5-linux-loader.elf",
         author: "TheOfficialFloW",
         projectSource: "https://github.com/ps5-linux/ps5-linux-loader/releases",
