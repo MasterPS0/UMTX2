@@ -72,14 +72,24 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "ps5-kstuff-lite",
+        displayTitle: "Kstuff Lite 1.07 Beta",
         description: "FPKG enabler",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao, idlesauce",
         projectSource: "https://github.com/EchoStretch/kstuff-lite",
         binarySource: "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.01/",
-        version: "1.04",
+        version: "1.07",
         supportedFirmwares: ["3.","4.","5.","6.","7.","8.","9.","10."],
+        toPort: 9021
+    },
+    {
+        displayTitle: "shadowmountplus",
+        description: "Mount games has never been easier with shadowmountplus",
+        fileName: "shadowmountplus.elf",
+        author: "drakmor",
+        projectSource: "https://github.com/drakmor/ShadowMountPlus/",
+        binarySource: "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.6beta5",
+        version: "1.6test13",
         toPort: 9021
     },
 	{
@@ -153,16 +163,6 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "shadowmountplus",
-        description: "Mount games has never been easier with shadowmountplus",
-        fileName: "shadowmountplus.elf",
-        author: "drakmor",
-        projectSource: "https://github.com/drakmor/ShadowMountPlus/",
-        binarySource: "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.6beta5",
-        version: "1.6test11",
-        toPort: 9021
-    },
-    {
         displayTitle: "voidshell",
         description: "AIO tool by VoidWhisper",
         fileName: "voidshell.elf",
@@ -170,6 +170,16 @@ const payload_map = [
         projectSource: "https://ko-fi.com/s/d90b784d5d",
         binarySource: "https://ko-fi.com/s/d90b784d5d",
         version: "3.0B",
+        toPort: 9021
+    },
+	{
+        displayTitle: "ps5debug-NG",
+        description: "Debugger (Experimental beta)",
+        fileName: "ps5debug-NG_v1.2.5.elf",
+        author: "OpenSourcereR-dev, Pharaoh2k,  Echo Stretch",
+        projectSource: "https://github.com/OpenSourcereR-dev/ps5debug-NG/releases",
+        binarySource: "https://github.com/OpenSourcereR-dev/ps5debug-NG/releases",
+        version: "1.2.5",
         toPort: 9021
     },
 	{
