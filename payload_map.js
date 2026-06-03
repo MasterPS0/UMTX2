@@ -89,7 +89,7 @@ const payload_map = [
         author: "drakmor",
         projectSource: "https://github.com/drakmor/ShadowMountPlus/",
         binarySource: "https://github.com/drakmor/ShadowMountPlus/releases/tag/1.6beta5",
-        version: "1.6test13",
+        version: "1.6test15",
         toPort: 9021
     },
 	{
