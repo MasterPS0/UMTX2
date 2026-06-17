@@ -83,6 +83,16 @@ const payload_map = [
         toPort: 9021
     },
     {
+        displayTitle: "pldmgr-v0.1.1",
+        description: "itsPLK",
+        fileName: "pldmgr-v0.1.1.elf",
+        author: "itsPLK",
+        projectSource: "https://github.com/itsPLK/ps5-lua-autoloader",
+        binarySource: "https://github.com/itsPLK/ps5-lua-autoloader",
+        version: "v0.1.1",
+        toPort: 9021
+    },
+    {
         displayTitle: "shadowmountplus",
         description: "Mount games has never been easier with shadowmountplus",
         fileName: "shadowmountplus.elf",
