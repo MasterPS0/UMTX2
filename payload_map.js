@@ -51,13 +51,24 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "etaHEN 2.5B",
-        description: "AIO HEN",
-        fileName: "etaHEN-2.5B.bin",
-        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
-        projectSource: "https://github.com/etaHEN/etaHEN",
-        binarySource: "https://github.com/etaHEN/etaHEN/releases/download/2.6B/etaHEN-2.6B.bin",
-        version: "2.6b",
+        displayTitle: "evox",
+        description: "evox",
+        fileName: "evox_v0.3.3.elf",
+        author: "evox",
+        projectSource: "",
+        binarySource: "",
+        version: "v0.3.3",
+        toPort: 9021
+    },
+    {
+        displayTitle: "PS5 HEN",
+        description: "HEN for 1.00 to 4.51 by Cragson",
+        fileName: "ps5-hen.elf",
+        author: "cragson, SpecterDev, fail0verflow, flatz, EchoStretch", 
+        projectSource: "https://github.com/cragson/ps5-hen",
+        binarySource: "https://github.com/cragson/ps5-hen/releases/download/dev-latest",
+        version: "1.0",
+        supportedFirmwares: ["1.","2.","3.","4."],
         toPort: 9021
     },
     {
