@@ -1,6 +1,9 @@
 --
 ## UMTX2
 04/07/2026
+## slopkit
+12/08/2026
+soon
 Link: 
 
 https://masterps0.github.io/UMTX2/
