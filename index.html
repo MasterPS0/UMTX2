@@ -22,12 +22,39 @@
     </div>
     <!-- Row 2 -->
     <div id="main-content">
-        <div id="pre-jb-view" class="d-flex align-items-center justify-content-center flex-direction-column selected">
-            <a tabindex="0" class="btn fw-bold" id="run-jb" onclick=""><img src="img/01.png" width="64" height="64" alt=""><br>Jailbreak 9.00-12.00<p class="text-secondary">soon</p></a>
-            <a tabindex="0" class="btn fw-bold" id="run-jb" onclick="run()"><img src="img/01.png" width="64" height="64" alt=""><br>Jailbreak (1.xx-5.xx)</a>
-            <a tabindex="0" class="btn" style="padding: 0.5rem 2rem; font-size: 1rem;" id="run-wk-only"
-                onclick="run(true)"><img src="img/02.png" width="64" height="64" alt=""><br>Webkit-only (sender)</a>
-        </div>
+<div id="pre-jb-view"
+     class="d-flex align-items-center justify-content-center flex-row selected"
+     style="gap: 26px;">
+
+    <a tabindex="0"
+       class="btn fw-bold"
+       id="run-jb-new"
+       onclick=""
+       style="width: 375px; height: 150px; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+        <img src="img/01.png" width="64" height="64" alt="">
+        <br>Jailbreak 9.00-12.00
+        <p class="text-secondary" style="margin:4px 0 0;">soon</p>
+    </a>
+
+    <a tabindex="0"
+       class="btn fw-bold"
+       id="run-jb"
+       onclick="run()"
+       style="width: 375px; height: 150px; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+        <img src="img/01.png" width="64" height="64" alt="">
+        <br>Jailbreak (1.xx-5.xx)
+    </a>
+
+    <a tabindex="0"
+       class="btn"
+       id="run-wk-only"
+       onclick="run(true)"
+       style="width: 375px; height: 150px; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+        <img src="img/02.png" width="64" height="64" alt="">
+        <br>Webkit-only (sender)
+    </a>
+
+</div>
 
         <div id="console-view">
             <div id="console" class="log"></div>
