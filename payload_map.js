@@ -30,6 +30,16 @@ const payload_map = [
     //     version: "0.19",
     //     supportedFirmwares: ["1.", "2.", "3.", "4.", "5."]
     // },
+	{
+        displayTitle: "OnionHEN",
+        description: "Supported firmware: 4.03 – 12.70",
+        fileName: "OnionHEN.elf",
+        author: "aydencharles",
+        projectSource: "https://github.com/aydencharles/onionHEN/releases",
+        binarySource: "https://github.com/aydencharles/onionHEN/releases",
+        version: "v0.0.12",
+        toPort: 9021
+    },
    {
         displayTitle: "PS5 Linux-loader",
         description: "Added 6.50 and 7.20 support",
@@ -51,6 +61,16 @@ const payload_map = [
         toPort: 9021
     },
     {
+        displayTitle: "etaHEN 2.5B",
+        description: "AIO HEN",
+        fileName: "etaHEN-2.5B.bin",
+        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
+        projectSource: "https://github.com/etaHEN/etaHEN",
+        binarySource: "https://github.com/etaHEN/etaHEN/releases/download/2.6B/etaHEN-2.6B.bin",
+        version: "2.6b",
+        toPort: 9021
+    },
+    {
         displayTitle: "evox",
         description: "evox",
         fileName: "evox_v0.3.3.elf",
@@ -58,17 +78,6 @@ const payload_map = [
         projectSource: "",
         binarySource: "",
         version: "v0.3.3",
-        toPort: 9021
-    },
-    {
-        displayTitle: "PS5 HEN",
-        description: "HEN for 1.00 to 4.51 by Cragson",
-        fileName: "ps5-hen.elf",
-        author: "cragson, SpecterDev, fail0verflow, flatz, EchoStretch", 
-        projectSource: "https://github.com/cragson/ps5-hen",
-        binarySource: "https://github.com/cragson/ps5-hen/releases/download/dev-latest",
-        version: "1.0",
-        supportedFirmwares: ["1.","2.","3.","4."],
         toPort: 9021
     },
     {
