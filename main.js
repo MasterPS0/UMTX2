@@ -449,24 +449,11 @@ async function main(userlandRW, wkOnly = false) {
         return iplist;
     }
 
-        // ابحث عن واجهة wlan0 بالتحديد
+    
     let ip_list = await get_local_ips();
-
-    let ip_wlan = ip_list.find(obj => obj.name === "wlan0" && obj.ip && obj.ip !== "0.0.0.0");
-    let ip_eth = ip_list.find(obj => obj.name === "eth0" && obj.ip && obj.ip !== "0.0.0.0");
-    let ip = ip_wlan || ip_eth || { ip: "", name: "Offline" };
-
-    let statusImage = document.getElementById("statusImage");
-        if (statusImage) {
-        statusImage.src = ip.name === "Offline" ? "offline.png" : "online.png";
-        statusImage.width = 32;
-        statusImage.height = 32;
-    }
-
-    let consoleView = document.getElementById("console-view");
-        if (consoleView) {
-        consoleView.classList.remove("online", "offline");
-        consoleView.classList.add(ip.name === "Offline" ? "offline" : "online");
+    let ip = ip_list.find(obj => obj.ip != "0.0.0.0");
+    if (typeof ip === "undefined" || !ip.ip) {
+        ip = { ip: "", name: "Offline" };
     }
 
     // async function probe_sb_elfldr() {
@@ -874,7 +861,7 @@ async function main(userlandRW, wkOnly = false) {
             }
         }
 
-        if (await load_local_elf("elfldr.elf") == 0) {
+        if (await load_local_elf("elfldr-ps5.elf") == 0) {
             await log(`elfldr listening on ${ip.ip}:9021`, LogLevel.INFO);
             is_elfldr_running = true;
         } else {
@@ -1194,13 +1181,7 @@ async function main(userlandRW, wkOnly = false) {
     // await log("Done, switching to payloads screen...", LogLevel.INFO);
     await new Promise(resolve => setTimeout(resolve, 300));
     await switchPage("payloads-view");
-      if (ip.name === "Offline") {
-      showToast("❌ Offline", 4000, "offline");
-      } else if (ip.name === "wlan0") {
-       showToast("📶 Connected via Wi-Fi (wlan0)", 4000, "wifi");
-      } else if (ip.name === "eth0") {
-       showToast("🔌 Connected via Ethernet (eth0)", 4000, "ethernet");
-    }
+
 
     while (true) {
 
