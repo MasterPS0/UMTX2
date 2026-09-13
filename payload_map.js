@@ -37,7 +37,7 @@ const payload_map = [
         author: "aydencharles",
         projectSource: "https://github.com/aydencharles/onionHEN/releases",
         binarySource: "https://github.com/aydencharles/onionHEN/releases",
-        version: "v0.0.12",
+        version: "v0.0.13",
         toPort: 9021
     },
    {
