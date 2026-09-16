@@ -92,13 +92,13 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "Kstuff Lite 1.09",
+        displayTitle: "Kstuff Lite 1.12t",
         description: "FPKG enabler",
         fileName: "kstuff.elf",
         author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao, idlesauce",
         projectSource: "https://github.com/EchoStretch/kstuff-lite",
         binarySource: "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.01/",
-        version: "1.09",
+        version: "1.12",
         toPort: 9021
     },
     {
