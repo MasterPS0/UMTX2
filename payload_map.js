@@ -102,6 +102,16 @@ const payload_map = [
         toPort: 9021
     },
     {
+        displayTitle: "A53",
+        description: "a53 ppr install fast",
+        fileName: "a53.elf",
+        author: "sleirsgoevy, john-tornblom, EchoStretch, buzzer-re, BestPig, LightningMods, zecoxao, idlesauce",
+        projectSource: "https://github.com/EchoStretch/kstuff-lite",
+        binarySource: "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.01/",
+        version: "15.09",
+        toPort: 9021
+    },
+    {
         displayTitle: "pldmgr-v0.1.1",
         description: "itsPLK",
         fileName: "pldmgr-v0.1.1.elf",
@@ -149,16 +159,6 @@ const payload_map = [
         projectSource: "https://github.com/ps5-payload-dev/websrv",
         binarySource: "https://github.com/ps5-payload-dev/websrv/actions/runs/14318408868",
         version: "0.22",
-        toPort: 9021
-    },
-    {
-        displayTitle: "ftpsrv",
-        description: "FTP server. Runs on port 2121.",
-        fileName: "ftpsrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/ftpsrv",
-        binarySource: "https://github.com/ps5-payload-dev/pacbrew-repo/actions/runs/14012252230",
-        version: "0.19",
         toPort: 9021
     },
 	{
