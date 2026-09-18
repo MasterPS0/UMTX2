@@ -1,3 +1,4 @@
+
 // @ts-check
 
 const CUSTOM_ACTION_APPCACHE_REMOVE = "appcache-remove";
@@ -37,7 +38,7 @@ const payload_map = [
         author: "aydencharles",
         projectSource: "https://github.com/aydencharles/onionHEN/releases",
         binarySource: "https://github.com/aydencharles/onionHEN/releases",
-        version: "v0.0.13",
+        version: "v0.0.12",
         toPort: 9021
     },
    {
@@ -122,13 +123,13 @@ const payload_map = [
         toPort: 9021
     },
     {
-        displayTitle: "pldmgr-v0.1.1",
+        displayTitle: "pldmgr_v0.5.1",
         description: "itsPLK",
-        fileName: "pldmgr-v0.1.1.elf",
+        fileName: "pldmgr_v0.5.1.elf",
         author: "itsPLK",
         projectSource: "https://github.com/itsPLK/ps5-lua-autoloader",
         binarySource: "https://github.com/itsPLK/ps5-lua-autoloader",
-        version: "v0.1.1",
+        version: "v0.5.1",
         toPort: 9021
     },
     {
