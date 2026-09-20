@@ -41,7 +41,7 @@ const payload_map = [
         version: "v0.0.12",
         toPort: 9021
     },
-   {
+    {
         displayTitle: "PS5 Linux-loader",
         description: "Added 6.50 and 7.20 support",
         fileName: "ps5-linux-loader.elf",
